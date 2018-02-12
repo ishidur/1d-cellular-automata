@@ -1,5 +1,6 @@
 # 1d-cellular-automata
 python 1d cellular automata visualization tool
+![sample](https://github.com/ishidur/1d-cellular-automata/blob/develop/rule135.png)
 
 # How to use
 ## Run

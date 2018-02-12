@@ -56,4 +56,4 @@ if __name__ == '__main__':
     for rule in rules:
         print(format(rule, '0' + str(np.power(2, (2 * r + 1))) + 'b'))
     plt.show()
-    # plt.savefig('rule'+str(ruleNo)+'.pdf', bbox_inches='tight', transparent=False)
+    # plt.savefig('rule'+str(ruleNo)+'.png', bbox_inches='tight', transparent=False)
