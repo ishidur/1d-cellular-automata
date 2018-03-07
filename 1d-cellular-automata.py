@@ -18,6 +18,10 @@ print(ruleNo, binaryRule)
 
 # apply rule
 def validate(neighbors):
+    '''
+    :param neighbors: array of neighbor cell state values
+    :return: next step cell state value
+    '''
     b = ''
     for num in neighbors:
         b += str(num)
@@ -25,8 +29,12 @@ def validate(neighbors):
     return int(rules[index])
 
 
-# update column
+# update row
 def update(u):
+    '''
+    :param u: array of all cell state
+    :return: array of next step all cell state
+    '''
     u_next = []
     for num in range(size):
         nbs = []
